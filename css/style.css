@@ -153,4 +153,15 @@ a{
 .anchor{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.anchor3{
+    display: flex;
+    font-size: 22px;
+    gap: 10px;
+}
+
+.anchor a, .anchor3 a{
+    color: #fff;
 }
