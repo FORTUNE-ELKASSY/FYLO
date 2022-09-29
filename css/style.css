@@ -236,7 +236,9 @@ a{
     .herotext{
         width: 80%;
     }
-
+    #hero img{
+        width: 70%;
+    }
     #tame{
       flex-direction: column-reverse;
     }
