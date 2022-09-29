@@ -256,6 +256,11 @@ a{
         flex-direction: column;
     }
     .fortress{
-        padding: 20px 10px;
+        padding: 30px 8px;
+        width: 80%;
+        font-size: 1em;
+    }
+    .footer{
+        flex-direction: column;
     }
  }
