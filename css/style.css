@@ -71,10 +71,14 @@ a{
 #tame{ 
     display: flex;
     align-items: flex-start;
-    padding: 20px 60px;
+    padding: 120px 60px 40px;
     margin-top: 100px;
     justify-content:space-between;
     gap: 40px;
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .tametext{
@@ -118,6 +122,15 @@ a{
     padding: 12px 5px;
     border-radius: 5px;
     border: none;
+}
+
+.email1{
+    width: 100%;
+    color: rgb(107, 107, 107);
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    margin-bottom: 10px;
 }
 
 .submit{
@@ -165,3 +178,82 @@ a{
 .anchor a, .anchor3 a{
     color: #fff;
 }
+
+@media screen and (max-width:992px) {
+    .herotext h1{
+        font-size: 28px;
+    }
+    #hero img {
+        width: 50%;
+    }
+    #tame img{
+        width: 50%;
+    }
+
+    .tametext{
+        width: 50%;
+    }
+    
+    .fortress{ 
+        font-size: 1em;
+    }
+       .email{ 
+        padding: 10px;
+        width: 240px;
+       }
+
+}
+
+@media screen and (max-width:768px) {
+    #hero{
+        padding: 10px 30px;
+    }
+
+    #tame{
+        padding: 20px 30px;
+    }
+
+    #fort{
+        padding: 50px 30px;
+    }
+    .herotext h1{
+    font-size: 20px;
+    }
+
+    .herotext p{
+        font-size: 15px;
+        }
+    #hero img{
+        width: 60%;
+    }
+ }
+
+ @media screen and (max-width:576px) {
+    #hero{
+        flex-direction: column;
+    }
+
+    .herotext{
+        width: 80%;
+    }
+
+    #tame{
+      flex-direction: column-reverse;
+    }
+
+    #tame img{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .tametext{ 
+        width: 80%;
+    }
+
+    #fort{
+        flex-direction: column;
+    }
+    .fortress{
+        padding: 20px 10px;
+    }
+ }
