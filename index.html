@@ -17,10 +17,14 @@
     <!-- Nav section starts -->
     <section id="nav">
         <img src="/images/logo.svg" alt="fylo logo">
+        <div class="toggle">
+            <i class="ri-menu-fill" onclick="navOpen()"></i>
+            <i class="ri-close-fill" onclick="navClose()"></i>
+        </div>
         <div class="nav-links">
-            <a href="#">Features</a>
-            <a href="#">Team</a>
-            <a href="#">Sign in</a>
+            <a href="#hero">Team</a>
+            <a href="#tame">Features</a>
+            <a href="#footer">Contact</a>
     </section>
     <!-- Nav section ends -->
 
@@ -57,9 +61,23 @@
         <div class="tametestLink">
             <a  style="color: green ; border-bottom: 1px solid green ;" href="#">see how fylo works</a>
         </div>
-    <p>
-        fylo has improved our team productivity by an order of magnitude.By making
-    </p>
+        <div class="quote">
+            <P>
+                Fylo has improved our team productivity by an order of magnitude. 
+                Since making the switch our team has become a well-oiled collaboration machine.
+            </P>
+            <div class="quoteImg">
+                <img src="images/avatar-testimonial.jpg" alt="">  
+                <div>
+                    <h3>
+                        Kyle Burton
+                    </h3>
+                    <span>
+                        Founder & CEO, Huddle
+                    </span>
+                </div>              
+            </div>
+         </div>
     </div>
     <img src="/images/illustration-2.svg" alt="">
 </section>
@@ -92,24 +110,26 @@
             <p>example@fylo.com</p>
         </div>
     </div>
-    <div class="anchor">
+    <div class="anchorDiv">
+        <div class="anchor">
            
-           <a href="#">About us</a>
-
-             <a href="">Jobs</a>
-          
-          <a href="">Press</a>
-
-            <a href="">Blogs</a>
-
-    </div>
-    <div class="anchor">
-        
-            <a href="">Contact us</a>
-    
-            <a href="">Terms</a>
-        
-            <a href="">Privacy</a>
+            <a href="#">About us</a>
+ 
+              <a href="">Jobs</a>
+           
+           <a href="">Press</a>
+ 
+             <a href="">Blogs</a>
+ 
+     </div>
+     <div class="anchor">
+         
+             <a href="">Contact us</a>
+     
+             <a href="">Terms</a>
+         
+             <a href="">Privacy</a>
+     </div>
     </div>
     <div class="anchor3">
         <a href="#">
@@ -125,5 +145,6 @@
 
 </section>
 
+<script src="/js/main.js"></script>
 </body>
 </html>
